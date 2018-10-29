@@ -14,18 +14,19 @@ public class Main {
 
   public static void main(String[] args) {
 
-    ArrayList<Product> products = new ArrayList<Product>();
+    ArrayList<Product> products = new ArrayList<>();
 
     products = testCollection();
 
+    //Reference Product.compareTo() function to sort string.
     Collections.sort(products);
+    //Prints out sorted ArrayList<Product> products
     System.out.println(products.toString().replace("[", "").replace("]", "").replace(", ", ""));
 
   }
 
-
-  public static <E> ArrayList<Product> testCollection() {
-    ArrayList<Product> products = new ArrayList<Product>();
+  public static  ArrayList<Product> testCollection() {
+    ArrayList<Product> products = new ArrayList<>();
     //Generate Items to the the list
     AudioPlayer a1 = new AudioPlayer("iPod Mini", "MP3");
     AudioPlayer a2 = new AudioPlayer("Walkman", "WAV ");
@@ -38,6 +39,8 @@ public class Main {
     products.add(a2);
     products.add(m1);
     products.add(m2);
+
+    //Return  ArrayList<Product> products[testCollection] -> ArrayList<Product> products[main]
     return products;
   }
 

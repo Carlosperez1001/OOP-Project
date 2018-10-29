@@ -54,6 +54,7 @@ public abstract class Product implements Item, Comparable<Product> {
     return serialNumber;
   }
 
+  //Compares Product String Name by recursion
   @Override
   public int compareTo(Product o) {
     return this.name.compareTo(o.name);
