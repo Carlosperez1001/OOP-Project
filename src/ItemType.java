@@ -10,10 +10,10 @@
 
 public enum ItemType {
   //Categorized item's type with and affiliated code.
-  Audio("AU"),
-  Visual("VI"),
-  AudioMobile("AM"),
-  VisualMobile("VM");
+  AUDIO("AU"),
+  VISUAL("VI"),
+  AUDIOMOBILE("AM"),
+  VISUALMOBILE("VM");
 
   public final String code;
 
@@ -21,7 +21,7 @@ public enum ItemType {
     this.code = code;
   }
 
-  public String getCode() {
+  public String getCode(ItemType it) {
     return code;
   }
 

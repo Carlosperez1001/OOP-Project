@@ -8,29 +8,37 @@
  * Summary: The driver class of the program. Where the object "Widget" is created and defined.
  ******************************************************************************/
 
+import java.util.ArrayList;
+import java.util.Collections;
 public class Main {
 
-    public static void main(String[] args) {
-       //Generate "Widgets"
-        Widget w1 = new Widget("Box");
-        Widget w2 = new Widget("Big Box");
-        Widget w3 = new Widget("Bigger Box");
-        System.out.println(w1.toString());
-        System.out.println(w2.toString());
-        System.out.println(w3.toString());
+  public static void main(String[] args) {
 
-      /* Code for using the ItemType ENUM.
-        for (ItemType it : ItemType.values()){
-          System.out.println(it+" " +it.code);
-        }
-       */
+    ArrayList<Product> products = new ArrayList<Product>();
 
-    }
-}
-//A subclass of Product
- class Widget extends Product {
-    /* Default Constructor : Widget */
-    public Widget(String name){
-        super(name);
-    }
+    products = testCollection();
+
+    Collections.sort(products);
+    System.out.println(products.toString().replace("[", "").replace("]", "").replace(", ", ""));
+
+  }
+
+
+  public static <E> ArrayList<Product> testCollection() {
+    ArrayList<Product> products = new ArrayList<Product>();
+    //Generate Items to the the list
+    AudioPlayer a1 = new AudioPlayer("iPod Mini", "MP3");
+    AudioPlayer a2 = new AudioPlayer("Walkman", "WAV ");
+    MoviePlayer m1 = new MoviePlayer("DBPOWER MK101",
+        new Screen(" 720x480", 40, 22), MonitorType.LCD);
+    MoviePlayer m2 = new MoviePlayer("Pyle PDV156BK",
+        new Screen("1366x768", 40, 22), MonitorType.LED);
+
+    products.add(a1);
+    products.add(a2);
+    products.add(m1);
+    products.add(m2);
+    return products;
+  }
+
 }
