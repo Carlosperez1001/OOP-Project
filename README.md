@@ -1,11 +1,11 @@
 # OOP-Project
 
 This program is based on the Oracle Academy project called ["OracleProduction"](https://github.com/Carlosperez1001/OOP-Project/blob/master/README_Res/JP_Project.pdf)
-The purpose of this exercise was to understand the Object Oriented Paradigm and to practice different types of testing methods of a program.
-As of now, the current state of the program will create a directory path within the local (C:) drive and initialize a textfile called “TestResult.txt”.  Given the Scenario, this text file will hold a report for Oracles production line and employees that were involved with a product.
-Every product should be given a name, serial number, and the date manufactured on.
-Products can hold different properties depending on its form. For example, an audio player is different from a movie player.
-Employees must enter their department number and their full name into the program to be recorded in the line. 
+<br>The purpose of this exercise was to understand the Object Oriented Paradigm and to practice different types of testing methods of a program.
+<br>As of now, the current state of the program will create a directory path within the local (C:) drive and initialize a textfile called “TestResult.txt”.  Given the Scenario, this text file will hold a report for Oracles production line and employees that were involved with a product.
+<br>Every product should be given a name, serial number, and the date manufactured on.
+<br>Products can hold different properties depending on its form. For example, an audio player is different from a movie player.
+<br>Employees must enter their department number and their full name into the program to be recorded in the line. 
 
 ## Demonstration
 ### TestResult.txt
