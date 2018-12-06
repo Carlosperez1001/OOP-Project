@@ -3,6 +3,9 @@
  * File: AudioPlayer.Java
  * Author: Carlos Perez
  * Class: COP 3003 - CRN 80602
+ *
+ * [AudioPlayer Constructor & functionalities]
+ *
  ******************************************************************************/
 
 public class AudioPlayer extends Product implements MultimediaControl {
@@ -54,7 +57,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
   @Override
   public String toString() {
     return super.toString()
-        + "Audio Spec : " + getAudioSpecification()
-        + "\nType : " + getMediaType();
+        + "Audio Spec : " + getAudioSpecification()+ System.getProperty("line.separator") +
+        "Type : " + getMediaType();
   }
 }

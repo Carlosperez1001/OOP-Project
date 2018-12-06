@@ -13,7 +13,7 @@ public abstract class Product implements Item, Comparable<Product> {
   private String name;                                        //Name of product
   private int serialNumber;                                   //serialNumber of product
   private Date manufacturedOn = new Date();                   //Uses today's date
-  private static int currentProductionNumber = 1;
+  private  int currentProductionNumber = 1;
 
   /* Default Constructor : Product */
   public Product(String name) {
@@ -26,10 +26,10 @@ public abstract class Product implements Item, Comparable<Product> {
 
   @Override
   public String toString() {
-    return ("Manufacturer : " + manufacturer + "\n" +
-        "Serial Number : " + getSerialNumber() + "\n" +
-        "Date : " + getManufactureDate() + "\n" +
-        "Name : " + getName() + "\n");
+    return ("Manufacturer : " + manufacturer + System.getProperty("line.separator") +
+        "Serial Number : " + getSerialNumber() + System.getProperty("line.separator") +
+        "Date : " + getManufactureDate() + System.getProperty("line.separator") +
+        "Name : " + getName() + System.getProperty("line.separator"));
   }
 
   /* Mutator Methods */

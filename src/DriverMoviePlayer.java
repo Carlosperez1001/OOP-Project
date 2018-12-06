@@ -3,6 +3,9 @@
  * File: DriverMoviePlayer.Java
  * Author: Carlos Perez
  * Class: COP 3003 - CRN 80602
+ *
+ * Unit testing for the MoviePlay class
+ *
  ******************************************************************************/
 
 public class DriverMoviePlayer {

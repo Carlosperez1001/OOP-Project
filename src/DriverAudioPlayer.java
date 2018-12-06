@@ -3,6 +3,9 @@
  * File: DriverAudioPlayer.Java
  * Author: Carlos Perez
  * Class: COP 3003 - CRN 80602
+ *
+ * Unit testing for the AudioPlayer class
+ *
  ******************************************************************************/
 
 public class DriverAudioPlayer {

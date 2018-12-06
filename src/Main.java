@@ -21,7 +21,7 @@ public class Main {
     //Reference Product.compareTo() function to sort string.
     Collections.sort(products);
     //Prints out sorted ArrayList<Product> products
-    System.out.println(products.toString().replace("[", "").replace("]", "").replace(", ", ""));
+    printList(products);
 
   }
 
@@ -42,6 +42,12 @@ public class Main {
 
     //Return  ArrayList<Product> products[testCollection] -> ArrayList<Product> products[main]
     return products;
+  }
+  public static void printList(ArrayList<Product> products){
+    for(int i=0;i<products.size();i++){
+      System.out.println(products.get(i));
+    }
+
   }
 
 }
