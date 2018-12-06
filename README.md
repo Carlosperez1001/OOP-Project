@@ -1,7 +1,18 @@
 # OOP-Project
-This Program is based on a Oracle Academy project called "OracleProduction". 
-The purpose of this project is to understand the relationships of between classes by using inheritance and polymorphism.
 
-Within the the interface class Item.java, the methods are defined and are resused for the object product.
-Widget is a subclass of product which is need in order to create an object.
-These objects has fields such as a name, serial number, a date manufactured on, and a fixed manufacturer called "OracleProduction". 
+This program is based on the Oracle Academy project called "OracleProduction". [Hyperlind pdf]
+The purpose of this exercise was to understand the Object Oriented Paradigm and to practice different types of testing methods of a program.
+As of now, the current state of the program will create a directory path within the local (C:) drive and initialize a textfile called “TestResult.txt”.  Given the Scenario, this text file will hold a report for Oracles production line and employees that were involved with a product.
+Every product should be given a name, serial number, and the date manufactured on.
+Products can hold different properties depending on its form. For example, an audio player is different from a movie player.
+Employees must enter their department number and their full name into the program to be recorded in the line. 
+
+## Build With 
+* [IntelliJ IDEA 2018.2.2](https://www.jetbrains.com/idea/)
+* [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+##Future Plans
+* Create a graphical user interface that allows individual to create a product as an employee.
+* Implement an embedded database.
+* Deploy program as a JAR package.	
+	
