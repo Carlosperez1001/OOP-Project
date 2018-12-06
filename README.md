@@ -11,7 +11,7 @@ Employees must enter their department number and their full name into the progra
 * [IntelliJ IDEA 2018.2.2](https://www.jetbrains.com/idea/)
 * [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-##Future Plans
+## Future Plans
 * Create a graphical user interface that allows individual to create a product as an employee.
 * Implement an embedded database.
 * Deploy program as a JAR package.	
