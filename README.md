@@ -7,6 +7,8 @@ Every product should be given a name, serial number, and the date manufactured o
 Products can hold different properties depending on its form. For example, an audio player is different from a movie player.
 Employees must enter their department number and their full name into the program to be recorded in the line. 
 
+## Demonstration
+![Alt Text](https://github.com/Carlosperez1001/OOP-Project/blob/master/README_Res/demo1.png)
 ## Build With 
 * [IntelliJ IDEA 2018.2.2](https://www.jetbrains.com/idea/)
 * [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
